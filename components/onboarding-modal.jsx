@@ -88,7 +88,7 @@ export default function OnboardingModal({ isOpen, onClose, onComplete }) {
         interests: selectedInterests,
         location,
       });
-      toast.success("Welcome to Spott! 🎉");
+      toast.success("Welcome to Evora! 🎉");
       onComplete();
     } catch (err) {
       toast.error("Failed to complete onboarding");
